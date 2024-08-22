@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A569" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Binary Clock View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="Binary_ClockViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="hh:mm:ss" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aLQ-UC-dA5">
+                                <rect key="frame" x="123" y="20" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="zR9-2q-DQg">
+                                <rect key="frame" x="159" y="355" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="h7V-27-fxQ">
+                                <rect key="frame" x="36" y="355" width="125" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="gpc-n4-SGg">
+                                <rect key="frame" x="10" y="50" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="hkD-Qu-uWw">
+                                <rect key="frame" x="60" y="50" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="mNI-ov-3F9">
+                                <rect key="frame" x="159" y="50" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="WPz-k1-d6m">
+                                <rect key="frame" x="111" y="50" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="bvc-17-WVk">
+                                <rect key="frame" x="10" y="106" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="5eO-3M-kHO">
+                                <rect key="frame" x="60" y="106" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="hK3-OR-HIU">
+                                <rect key="frame" x="159" y="106" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="vq8-5A-vRq">
+                                <rect key="frame" x="259" y="106" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="I7Y-qg-qNy">
+                                <rect key="frame" x="111" y="106" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="7RO-Nk-5qd">
+                                <rect key="frame" x="210" y="106" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="A7y-fT-FFN">
+                                <rect key="frame" x="10" y="161" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="n3m-ng-bWb">
+                                <rect key="frame" x="60" y="161" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="cpj-RA-3vM">
+                                <rect key="frame" x="159" y="161" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="RHEyeOpen_512X512.png" highlightedImage="RHEyeClosed_512X512.png" id="qGd-O4-FEg">
+                                <rect key="frame" x="259" y="161" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="wkI-gq-7X0">
+                                <rect key="frame" x="111" y="161" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="hSu-74-3Zd">
+                                <rect key="frame" x="210" y="161" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" horizontalCompressionResistancePriority="748" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="YL4-eU-52y">
+                                <rect key="frame" x="210" y="50" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="LHEyeOpen_512X512.png" highlightedImage="LHEyeClosed_512X512.png" id="PKU-Er-UpE">
+                                <rect key="frame" x="259" y="50" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" id="54y-PX-vk1">
+                                <rect key="frame" x="109" y="432" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nEd-ry-PYU">
+                                <rect key="frame" x="60" y="432" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z59-t4-wJx">
+                                <rect key="frame" x="10" y="432" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" id="h2D-lE-36K">
+                                <rect key="frame" x="30" y="90" width="10" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" id="r8T-xy-eEK">
+                                <rect key="frame" x="78" y="90" width="14" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" id="oxY-jG-bc3">
+                                <rect key="frame" x="131" y="90" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" id="YIh-lO-05M">
+                                <rect key="frame" x="178" y="90" width="12" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" text="16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" id="dyC-iR-pPd">
+                                <rect key="frame" x="225" y="90" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="32" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" id="WDD-TU-9FO">
+                                <rect key="frame" x="274" y="90" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="controlLightHighlightColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.84705882352941175" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="vYc-3E-e3U" appends="YES" id="bTY-qr-hqm"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="binHourLabel" destination="Z59-t4-wJx" id="5lY-uR-29b"/>
+                        <outlet property="binMinLabel" destination="nEd-ry-PYU" id="KlH-Bl-gFd"/>
+                        <outlet property="binSecLabel" destination="54y-PX-vk1" id="YV0-x0-cjF"/>
+                        <outlet property="imgEyeClosed" destination="h7V-27-fxQ" id="0Jb-uo-bEE"/>
+                        <outlet property="imgEyeOpen" destination="zR9-2q-DQg" id="cuO-CO-rhk"/>
+                        <outlet property="imgHH01" destination="qGd-O4-FEg" id="ybq-wT-1Qb"/>
+                        <outlet property="imgHH02" destination="hSu-74-3Zd" id="RQA-dO-wjA"/>
+                        <outlet property="imgHH03" destination="cpj-RA-3vM" id="jj8-RQ-Iw5"/>
+                        <outlet property="imgHH04" destination="wkI-gq-7X0" id="Jya-G4-Shh"/>
+                        <outlet property="imgHH05" destination="n3m-ng-bWb" id="3hV-qD-MVE"/>
+                        <outlet property="imgHH06" destination="A7y-fT-FFN" id="1Ou-r7-anW"/>
+                        <outlet property="imgLeftEye" destination="qGd-O4-FEg" id="ZhM-Pq-PIB"/>
+                        <outlet property="imgMM01" destination="vq8-5A-vRq" id="b91-1k-dma"/>
+                        <outlet property="imgMM02" destination="7RO-Nk-5qd" id="jlc-2Y-ieP"/>
+                        <outlet property="imgMM03" destination="hK3-OR-HIU" id="Jkf-k9-63p"/>
+                        <outlet property="imgMM04" destination="I7Y-qg-qNy" id="sDm-P4-jgC"/>
+                        <outlet property="imgMM05" destination="5eO-3M-kHO" id="hW1-Co-vsz"/>
+                        <outlet property="imgMM06" destination="bvc-17-WVk" id="hsM-ZX-N7h"/>
+                        <outlet property="imgRightEye" destination="zR9-2q-DQg" id="Zk4-fj-6s6"/>
+                        <outlet property="imgSS01" destination="PKU-Er-UpE" id="u8N-JM-D0f"/>
+                        <outlet property="imgSS02" destination="YL4-eU-52y" id="TlV-wl-UMA"/>
+                        <outlet property="imgSS03" destination="mNI-ov-3F9" id="SWD-2E-CoY"/>
+                        <outlet property="imgSS04" destination="WPz-k1-d6m" id="AH0-gH-8Hb"/>
+                        <outlet property="imgSS05" destination="hkD-Qu-uWw" id="oUz-8S-20x"/>
+                        <outlet property="imgSS06" destination="gpc-n4-SGg" id="gfO-HD-rdJ"/>
+                        <outlet property="lable" destination="aLQ-UC-dA5" id="cqV-mt-4ek"/>
+                        <outlet property="lbl1" destination="h2D-lE-36K" id="rmm-zo-fmO"/>
+                        <outlet property="lbl16" destination="dyC-iR-pPd" id="uZM-Ek-2bW"/>
+                        <outlet property="lbl2" destination="r8T-xy-eEK" id="q4y-i0-b56"/>
+                        <outlet property="lbl32" destination="WDD-TU-9FO" id="BH0-sI-bO0"/>
+                        <outlet property="lbl4" destination="oxY-jG-bc3" id="IQR-yv-VBA"/>
+                        <outlet property="lbl8" destination="YIh-lO-05M" id="BOf-KQ-Jd4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="vYc-3E-e3U">
+                    <connections>
+                        <action selector="showBinary:" destination="2" id="f6o-6G-4wq"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-342" y="-11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LHEyeClosed_512X512.png" width="512" height="512"/>
+        <image name="LHEyeOpen_512X512.png" width="512" height="512"/>
+        <image name="RHEyeClosed_512X512.png" width="512" height="512"/>
+        <image name="RHEyeOpen_512X512.png" width="512" height="512"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
